@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100vw;
+    border-bottom: 1.7px solid black;
+    background-color: #ffc017;
+}
+
+.navbar{
+    width: 90vw;
+    height: 77px;
+    /* border: 2px solid red; */
+    margin-left: 5vw; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div img{
+    height: 47px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .logo{
+    border: 2px solid green;
+} */
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.spcl-links{
+    background-color: black;
+    color: white;
+    padding: 13px 13px;
+    border-radius: 30px;
+}
